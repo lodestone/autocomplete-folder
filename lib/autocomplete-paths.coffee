@@ -1,7 +1,7 @@
 module.exports =
 
   config:
-    folder:
+    folders:
       type: 'array'
       default: []
       items:
