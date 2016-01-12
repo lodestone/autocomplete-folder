@@ -13,7 +13,7 @@ class PathsProvider
 
   requestHandler: (options = {}) =>
     return [] unless options.editor? and options.buffer? and options.cursor?
-    basePath = atom.config.get("autocomplete-folder.folder")[0]
+    basePath = atom.config.get("autocomplete-folders.folders")[0]
 
     return [] unless basePath?
 
