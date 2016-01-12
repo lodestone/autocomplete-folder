@@ -1,9 +1,9 @@
 {
-  "name": "autocomplete-folder",
+  "name": "autocomplete-folders",
   "main": "./lib/autocomplete-paths",
   "version": "0.1.0",
-  "description": "Adds a specific folder for autocomplete",
-  "repository": "https://github.com/lodestone/autocomplete-folder",
+  "description": "Adds specific folders for autocomplete",
+  "repository": "https://github.com/lodestone/autocomplete-folders",
   "license": "MIT",
   "engines": {
     "atom": ">0.1.0"
