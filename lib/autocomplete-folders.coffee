@@ -8,7 +8,7 @@ module.exports =
         type: 'string'
     scope:
       type: 'string'
-      default: '.source.gfm'
+      default: '.source.gfm, .source.pfm, .source.md'
 
   provider: null
   ready: false
@@ -21,8 +21,8 @@ module.exports =
 
   getProvider: ->
     return @provider if @provider?
-    PathsProvider = require('./paths-provider')
-    @provider = new PathsProvider()
+    FoldersProvider = require('./folders-provider')
+    @provider = new FoldersProvider()
     return @provider
 
   provide: ->

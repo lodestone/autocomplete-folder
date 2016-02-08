@@ -2,5 +2,4 @@ This packages lets you specify a folder or folders from which you will get autoc
 
 ## Installation
 
-You can install autocomplete-paths using the Preferences pane.
-
+You can install autocomplete-folders using the Preferences pane.
